@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;700&family=Noto+Sans:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    border: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "poppins";
+    overflow-x: hidden;
+    background-color: #161829;
+}
+
+.header{
+    display: flex;
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    z-index: 99px;
+}
+.header h1{
+    position: relative;
+    right: 300px;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: rgba(233, 246, 48, 0.999);
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.navigation a{
+    font-size: 1em;
+    margin-right: 66px;
+    text-decoration: none;
+    color: rgba(233, 246, 48, 0.999);
+}
+.btn-contact{
+    position: relative;
+    left: 300px;
+    color: #000;
+    margin-right: 66px;
+    background-color: rgba(233, 246, 48, 0.999);
+    width: 160px;
+    height: 60px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: "poppins";
+    transition: 0.5s;
+}
+
+.btn-contact:hover{
+    background-color: transparent;
+    color: rgba(233, 246, 48, 0.999);
+    border: 2px solid rgba(233, 246, 48, 0.999);
+    transform: scale(1.05);
+}
