@@ -4,11 +4,15 @@
     border: 0px;
     margin: 0px;
 }
+
 body{
     font-family: "poppins";
     overflow-x: hidden;
     background-color: #161829;
-}
+    background-image: url("/assets/pexels-antoni-shkraba-4662355.jpg");
+    background-position: center;
+    background-size: cover;
+}   
 
 .header{
     display: flex;
@@ -19,6 +23,7 @@ body{
     padding: 20px;
     z-index: 99px;
 }
+
 .header h1{
     position: relative;
     right: 300px;
@@ -26,16 +31,35 @@ body{
     font-weight: 600;
     color: rgba(233, 246, 48, 0.999);
 }
+
 .navigation{
     display: flex;
     align-items: center;
 }
+
 .navigation a{
+    position: relative;
     font-size: 1em;
     margin-right: 66px;
     text-decoration: none;
     color: rgba(233, 246, 48, 0.999);
 }
+
+.navigation a::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -6px;
+    height: 3px;
+    background: rgba(233, 246, 48, 0.999);
+    transform: scale(0);
+}
+
+.navigation a:hover::after{
+    transform: scaleX(1);
+}
+
 .btn-contact{
     position: relative;
     left: 300px;
@@ -47,7 +71,6 @@ body{
     border-radius: 10px;
     font-weight: 600;
     font-family: "poppins";
-    transition: 0.5s;
 }
 
 .btn-contact:hover{
