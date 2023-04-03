@@ -24,14 +24,6 @@ body{
     background-color: var(--gray);
 
 }   
-/* 
-.background{
-    width: 100%;
-    height: 600px;
-    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.2), rgb(117, 105, 105)), url(/assets/pexels-cottonbro-studio-4753885.jpg)no-repeat;
-    background-position: center;
-    background-size: cover;
-}    */
 
 .header{
     display: flex;
@@ -131,10 +123,12 @@ body{
     background-color: #231f1f;
     width: 100%;
     height: 100%;
-    background-image: url("/assets/pexels-cottonbro-studio-4753885.jpg");
+    /* background-image: url("/assets/pexels-cottonbro-studio-4753885.jpg");
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 }
+
+
 
 .itens-container > .itens-background-overlay{
     position: absolute;
@@ -158,7 +152,8 @@ body{
 
 .elements-widget-itens-container > h3{
     margin-top: 30%;
-    font-size: 28px;
+    font-size: 24px;
+    font-weight: 600;
     color: #fff;
 }
 
@@ -168,9 +163,9 @@ body{
     color: black;
     cursor: pointer;
     text-align: center;
-    width: 275px;
-    height: 56px;
-    font-size: 18px;
+    width: 175px;
+    height: 38px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
     padding: 10px 25px;
@@ -180,4 +175,52 @@ body{
 
 .btn-itens:hover{
     color: #fff;
+}
+
+.musculacao-img{
+    background: url("/assets/musculacao.jpg")no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fit-dance-img{
+    background: url("/assets/fit-dance.jpg")no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.jiu-jitsu-img{
+    background: url("/assets/jiu-jitsu.jpg")no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+
+.natacao-img{
+    background: url("/assets/natacao.jpg")no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.yoga-img{
+    background: url("/assets/yoga.jpg")no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+.muay-thai-img{
+    background: url("/assets/Muay-thai.jpg")no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.boxe-img{
+    background: url("/assets/boxe.jpg")no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.pilates-img{
+    background: url("/assets/Pilates.jpg")no-repeat;
+    background-position: center;
+    background-size: cover;
 }
