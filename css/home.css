@@ -141,12 +141,12 @@ body{
 }
 
 .widget-itens-container{
-    position: relative;
     width: 100%;
     height: 100%;
 }
 
 .elements-widget-itens-container{ 
+    position: relative;
     padding: 3rem;
 }
 
@@ -155,6 +155,7 @@ body{
     font-size: 24px;
     font-weight: 600;
     color: #fff;
+    transition: .3s ease-in
 }
 
 
@@ -170,7 +171,7 @@ body{
     letter-spacing: 1px;
     padding: 10px 25px;
     border: 1px solid black;
-    transition: .3s ease-in-out;
+    transition: .3s ease-in;
 }
 
 .btn-itens:hover{
@@ -178,49 +179,49 @@ body{
 }
 
 .musculacao-img{
-    background: url("/assets/musculacao.jpg")no-repeat;
+    background: url("/assets/musculacao.jpg");
     background-position: center;
     background-size: cover;
 }
 
 .fit-dance-img{
-    background: url("/assets/fit-dance.jpg")no-repeat;
+    background: url("/assets/fit-dance.jpg");
     background-position: center;
     background-size: cover;
 }
 
 .jiu-jitsu-img{
-    background: url("/assets/jiu-jitsu.jpg")no-repeat;
+    background: url("/assets/jiu-jitsu.jpg");
     background-position: center;
     background-size: cover;    
 }
 
 .natacao-img{
-    background: url("/assets/natacao.jpg")no-repeat;
+    background: url("/assets/natacao.jpg");
     background-position: right;
     background-size: cover;
 }
 
 .yoga-img{
-    background: url("/assets/yoga.jpg")no-repeat;
+    background: url("/assets/yoga.jpg");
     background-position: left;
     background-size: cover;
 }
 
 .muay-thai-img{
-    background: url("/assets/Muay-thai.jpg")no-repeat;
+    background: url("/assets/Muay-thai.jpg");
     background-position: center;
     background-size: cover;
 }
 
 .boxe-img{
-    background: url("/assets/boxe.jpg")no-repeat;
+    background: url("/assets/pexels-pixabay-416809.jpg");
     background-position: top;
     background-size: cover;
 }
 
 .pilates-img{
-    background: url("/assets/Pilates.jpg")no-repeat;
+    background: url("/assets/Pilates.jpg");
     background-position: center;
     background-size: cover;
 }
