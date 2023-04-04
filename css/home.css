@@ -17,88 +17,30 @@ body{
     height: 100vh;
     font-family: "poppins";
     overflow-x: hidden;
-    /* background-color: #756969; */
-    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.2), rgb(0, 0, 0)), url(/assets/pexels-cottonbro-studio-4753885.jpg)no-repeat;
-    background-position: center;
-    background-size: cover;
+    
     background-color: var(--gray);
 
 }   
 
-.header{
-    display: flex;
-    background-color: var(--gray);
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 20px;
-    z-index: 99px;
-}
-
-.header h1{
-    margin-right: 5%;
-    font-size: 1.3em;
-    font-weight: 600;
-    color: var(--orange);
-}
-
-.navigation{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.navigation a{
-    position: relative;
-    font-size: 1em;
-    margin-right: 66px;
-    text-decoration: none;
-    color: #fff;
-}
-
-.navigation a::after{
-    content: "";
-    position: absolute;
-    width: 100%;
-    left: 0;
-    bottom: -6px;
-    height: 3px;
-    background: var(--orange);
-    transform: scale(0);
-}
-
-.navigation a:hover::after{
-    transform: scaleX(1);
-}
-
-.btn-contact{
-    position: relative;
-    left: 3%;
-    color: #000;
-    margin-right: 66px;
-    background-color: var(--orange);
-    width: 160px;
-    height: 60px;
-    border-radius: 10px;
-    font-weight: 600;
-    font-family: "poppins";
-}
-
-.btn-contact:hover{
-    background-color: transparent;
-    color: var(--orange);
-    border: 2px solid var(--orange);
-    transform: scale(1.05);
-}
 .content{
     width: 100%;
     height: 75%;
+    /* background: linear-gradient(to bottom,rgba(0, 0, 0, 0.2), rgb(0, 0, 0)), url(/assets/pexels-cottonbro-studio-4753885.jpg)no-repeat;
+    background-position: center;
+    background-size: cover; */
 }
 
 .line{
     width: 100%;
     height: 100px;
     background-color: var(--orange);
+}
+
+.line-text{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-row-itens{
@@ -145,13 +87,13 @@ body{
     height: 100%;
 }
 
-.elements-widget-itens-container{ 
+.elements-widget-itens-container{
     position: relative;
     padding: 3rem;
 }
 
 .elements-widget-itens-container > h3{
-    margin-top: 30%;
+    margin-top: 40%;
     font-size: 24px;
     font-weight: 600;
     color: #fff;
@@ -215,7 +157,7 @@ body{
 }
 
 .boxe-img{
-    background: url("/assets/pexels-pixabay-416809.jpg");
+    background: url("/assets/boxe.jpg");
     background-position: top;
     background-size: cover;
 }
