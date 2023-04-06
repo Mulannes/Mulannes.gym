@@ -93,7 +93,7 @@ body{
 }
 
 .elements-widget-itens-container > h3{
-    margin-top: 40%;
+    margin-top: 60%;
     font-size: 24px;
     font-weight: 600;
     color: #fff;
@@ -133,7 +133,7 @@ body{
 }
 
 .jiu-jitsu-img{
-    background: url("/assets/jiu-jitsu.jpg");
+    background: url("/assets/boxe.jpg");
     background-position: center;
     background-size: cover;    
 }
